@@ -8,6 +8,8 @@ public class Controller {
 @GetMapping("/Shalu")
 public String greet() {
 	System.out.println("hello");
+	System.out.println("===========");
+	System.out.println("Welcome to my hoome");
 	return "welcome to my home";
 }
 }
